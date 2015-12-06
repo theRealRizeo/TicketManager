@@ -1,0 +1,65 @@
+.bus{
+	height:225px;
+	width:625px;
+	background:url('../img/bus-normal.png') no-repeat center;
+}
+
+.bus .seats{
+	position:relative;
+	height:225px;
+	width:625px;
+}
+.bus .back-seats{
+	left:0px;
+	bottom:43%;
+	width: 136px;
+	height:30px;
+	position:absolute;
+	text-align:center;
+	background-color:#fff;
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.bus .left-seats{
+	background-color: #fff;
+    bottom: 45%;
+    height: 60px;
+    left: 85px;
+    position: absolute;
+    text-align: center;
+    top: 47px;
+    width: 308px;
+}
+
+.bus .right-seats{
+	background-color: #fff;
+    bottom: 46px;
+    height: 60px;
+    left: 85px;
+    position: absolute;
+    text-align: center;
+    width: 308px;
+}
+
+.bus .seat{
+	width:28px;
+	height:26px;
+	border:1px solid #fff;
+	background-color:#ff0000;
+	position:relative;
+	float:left;
+}
